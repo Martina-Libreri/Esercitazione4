@@ -1,0 +1,57 @@
+head{
+    content:width=device-width;
+}
+
+body{
+    align-items: center;
+    background-color:rgb(151, 194, 211);
+    color: rgb(24, 62, 173);
+    margin: 10px;
+}
+
+ul{
+    display:inline-block;
+    list-style-type: none;
+}
+
+menu{
+    margin: 0px;
+    orientation: landscape;
+    glyph-orientation-horizontal: unset;
+}
+
+iframe{
+    align-content: center;
+    /*padding-left: 100px;*/
+}
+
+header{
+    text-align: center;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+}
+
+footer{
+    text-align:end;
+}
+
+table{
+    padding-left: 150px;
+}
+
+a:hover{
+    color: purple;
+}
+
+a:visited{
+    color: slateblue;
+}
+
+a:visited:hover{
+    color:rgb(218, 218, 97);
+}
+
+button{
+    background-color: rgb(24, 62, 173);
+    color:sandybrown;
+    border-radius: 50px;
+}

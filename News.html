@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <stript src="funzionalità.JS"></stript>
+    </head>
+    <body>
+        <hgroup>
+            <header>
+                <h1>Vuoi ricevere novità sul film?</h1>
+                <h2>Iscriviti alla nostra newsletter</h2>
+                <h3>Ma prima... Lascia un commento sul film!!</h3>
+            </header>
+        </hgroup>
+        
+        <form>
+            <p>
+                <label>Testo: <br></label>
+                <input name="text" type="text" autocomplete="off" placeholder="Inserisci qui la recensione.."/>
+            </p>
+            <p>
+                 <button type="submit">Invio</button>
+            </p>   
+        </form>
+
+        <form>
+            <header><h4>Lascia i tuoi dati </h4></header>
+            <div>
+                <label>Nome</label>
+                <input type="text" id="key" onchange="abilita()"/>
+            </div>
+            <div>
+                <label>Cognome</label>
+                <input type="text" id="value" onchange="abilita()" />
+            </div>
+    
+            <div>
+               <button><input type="submit" value="Subscribe" onchange="inserisci()" disabled/></button>
+            </div>
+            
+            <div>
+                <button onclick="remove()">Unsubscribe</button>
+            </div>
+    
+        </form>
+
+        <nav style="text-align: center;">
+            <button type="button"><a href="Home.html">Pagina Iniziale</a></button>
+        </nav>
+
+        <footer>By Martina Libreri</footer>
+    </body>
+</html>
